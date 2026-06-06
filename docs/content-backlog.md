@@ -2,6 +2,7 @@
 
 ## Ready for Planning
 
+- Use `docs/cursor-content-planning-prompt.md` in Cursor to produce the next content plan.
 - Add a dedicated `Data Plot Chart Analyzer` project page.
 - Add a project screenshot or chart image once the app UI is stable.
 - Add a "Tools" section with short descriptions of public repositories.
@@ -30,4 +31,3 @@ Do not publish:
 - Clear and engineering-focused.
 - Practical over flashy.
 - Short descriptions, useful links, and concrete status labels.
-
