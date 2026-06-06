@@ -1,0 +1,21 @@
+---
+description: Cursor plans, Codex executes for pieryudg.github.io
+alwaysApply: true
+---
+
+# AI Mix Rule
+
+For this GitHub Pages site:
+
+- Cursor/Claude should plan architecture, content, and UX.
+- VS Code/Codex should execute file edits, verification, Git commits, and publishing.
+- Prefer saving planning notes under `docs/` before implementation.
+- Do not expose private NAS addresses, tokens, emails, or personal infrastructure details on the public page without explicit confirmation.
+- Keep the site static and lightweight unless the user approves a build system.
+
+Recommended planning files:
+
+- `docs/site-roadmap.md`
+- `docs/content-backlog.md`
+- `docs/publishing-workflow.md`
+
