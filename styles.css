@@ -130,6 +130,112 @@ article p {
   font-weight: 650;
 }
 
+.card-meta {
+  margin: 0 0 10px;
+}
+
+.status {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 650;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: var(--surface-strong);
+  color: var(--muted);
+  letter-spacing: 0.02em;
+}
+
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--line);
+  font-size: 0.92rem;
+}
+
+.footer-sep {
+  color: var(--line);
+}
+
+.intro-compact {
+  padding-bottom: 32px;
+}
+
+.prose {
+  max-width: 720px;
+  line-height: 1.7;
+}
+
+.prose h2 {
+  margin: 2rem 0 0.75rem;
+  font-size: 1.25rem;
+}
+
+.prose h2:first-child {
+  margin-top: 0;
+}
+
+.prose p,
+.prose ul {
+  color: var(--muted);
+}
+
+.prose ul {
+  padding-left: 1.25rem;
+}
+
+.prose li + li {
+  margin-top: 0.35rem;
+}
+
+.prose figure {
+  margin: 1.25rem 0;
+}
+
+.prose img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.prose figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+.prose pre {
+  overflow-x: auto;
+  margin: 0.75rem 0 1rem;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-strong);
+  color: var(--text);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.prose code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.9em;
+}
+
+.prose pre code {
+  font-size: inherit;
+}
+
+.back-link {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--line);
+}
+
 @media (max-width: 800px) {
   .page {
     width: min(100% - 28px, 1080px);
